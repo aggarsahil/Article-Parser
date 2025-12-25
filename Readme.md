@@ -36,7 +36,7 @@ articles-parser-ui/
 
 ### 1. Clone the Repository
 
-git clone https://github.com/yourusername/articles-parser-ui.git
+git clone https://github.com/aggarsahil/article-parser.git
 cd articles-parser-ui
 
 
