@@ -20,7 +20,9 @@ articles-parser-ui/
 ├── README.md
 └── ...
 
-text
+
+
+
 
 ## Prerequisites
 
@@ -37,7 +39,9 @@ text
 git clone https://github.com/yourusername/articles-parser-ui.git
 cd articles-parser-ui
 
-text
+
+
+
 
 ### 2. Backend Setup (Laravel)
 
@@ -46,7 +50,9 @@ text
 cd backend
 composer install
 
-text
+
+
+
 
 #### Configure Environment
 
@@ -54,7 +60,9 @@ text
 
 cp .env.example .env
 
-text
+
+
+
 
 - Update `.env` with your database settings:
 
@@ -65,7 +73,9 @@ DB_DATABASE=beyond_blogs
 DB_USERNAME=root
 DB_PASSWORD=
 
-text
+
+
+
 
 #### Create Database
 
@@ -74,7 +84,9 @@ text
 
 php artisan migrate
 
-text
+
+
+
 
 #### Run Artisan Command (Scrape Articles)
 
@@ -82,13 +94,17 @@ text
 
 php artisan scrape:beyondchats
 
-text
+
+
+
 
 #### Start Laravel Server
 
 php artisan serve
 
-text
+
+
+
 
 ### 3. Frontend Setup (React)
 
@@ -97,7 +113,9 @@ text
 cd ../frontend
 npm install
 
-text
+
+
+
 
 #### Configure API URL
 
@@ -107,13 +125,17 @@ const api = axios.create({
 baseURL: 'http://127.0.0.1:8000/api',
 });
 
-text
+
+
+
 
 #### Start React Server
 
 npm run dev
 
-text
+
+
+
 
 ## Usage
 
@@ -135,7 +157,9 @@ text
 
 npm run build
 
-text
+
+
+
 
 - Copy the built files to Laravel’s `public` folder.
 - Serve Laravel as the main server.
